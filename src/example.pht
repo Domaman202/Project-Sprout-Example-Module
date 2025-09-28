@@ -1,0 +1,2 @@
+(use-ctx "pht/base"
+	(app-fn (println "Привет, Мир!")))
