@@ -4,5 +4,5 @@
 	(auth ["DomamaN202", "Phantom"])
 	(deps ["pht/sprout"])
 	(uses [])
-	(src-dir /src)
-	(plg-dir /plugin))
+	(src-dir "/src")
+	(plg-dir "/plugin"))
