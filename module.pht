@@ -1,5 +1,5 @@
 (module "pht/module"
-	{[name "pht/example/example-module"]}
+	{[name "pht/example/example-github-module"]}
 	{[vers "1.0.0"]}
 	{[desc "Пример модуля языка программирования 'Пихта' для менеджера проектов 'Росток'."]}
 	{[auth ["DomamaN202" "Phantom"]]}
