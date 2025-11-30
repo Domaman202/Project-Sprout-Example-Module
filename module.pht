@@ -1,8 +1,8 @@
-(module "pht/sprout"
-	(name "pht/sprout/example-module")
-	(desc "Пример модуля языка программирования 'Пихта' для менеджера проектов 'Росток'.")
-	(auth ["DomamaN202", "Phantom"])
-	(deps ["pht/sprout"])
-	(uses [])
-	(src-dir "/src")
-	(plg-dir "/plugin"))
+(module "pht/module"
+	{[name "pht/example/example-module"]}
+	{[vers "1.0.0"]}
+	{[desc "Пример модуля языка программирования 'Пихта' для менеджера проектов 'Росток'."]}
+	{[auth ["DomamaN202" "Phantom"]]}
+	{[deps ["pht/sprout" "pht/core"]]}
+	{[src ["src/*"]]}
+	{[plg ["plg/*"]]})
