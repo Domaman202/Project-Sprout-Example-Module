@@ -1,2 +1,2 @@
-(use-ctx "pht/sprout/base"
+(use-ctx "pht/sprout"
 	(on-event "entry" (println "Обработка события 'entry'!")))
